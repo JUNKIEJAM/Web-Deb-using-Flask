@@ -10,6 +10,12 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
+        <img src="{{ url_for('static',filename='1.jpg') }}"></img>
+
+        {% comment %} {% for user in users %}
+        <li><a href="{{user.url}}">{{user.username}}</a></li>
+        {% endfor %} {% endcomment %}
+
        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tenetur provident expedita, rem corrupti minus autem facilis amet possimus nostrum placeat dolor saepe ab quo necessitatibus officia dignissimos? Eum, laborum.
        </p>
        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum adipisci animi dolorum molestias placeat. Eveniet voluptatibus odit expedita illo quas.</p>

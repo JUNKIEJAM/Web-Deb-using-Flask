@@ -21,8 +21,6 @@ def about():
 @app.route('/bootstrap')
 
 def bootstrap():
-    # name="prithesh"
     return render_template('bootstrap.html')
-
 
 app.run(debug=True)
